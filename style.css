@@ -116,7 +116,6 @@ footer{
     grid-template-rows: 1fr 1fr 1fr;
     margin-top: 20%;
     margin-left: 30%;
-    margin-bottom: 20%;
     margin-right: 0%;
     width: 60%;
     height: 50%;
@@ -125,7 +124,7 @@ footer{
 font-family: 'Inter';
 font-style: normal;
 font-weight:bold;
-font-size: 3.1vw;
+font-size: 3em;
 line-height: 112%;
 letter-spacing: -0.03em;
 
@@ -135,7 +134,7 @@ color: #000000;
 font-family: 'Inter';
 font-style: normal;
 font-weight: bolder;
-font-size: 2.2vh;
+font-size: 1em;
 line-height: 144%;
 
 letter-spacing: -0.02em;
@@ -160,12 +159,43 @@ border-radius: 40px;
 .section1_aside{
     width: 80%;
 height: 80%;
-margin-top: 10%;
-margin-bottom: 10%;
+margin-top: 0;
 margin-left: 0%;
 align-self: start;
 justify-content: start;
 }
 .s1_c2_img{
     max-width: 100%;
+}
+.section2{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    border: 1px solid red;
+    height: 100%;
+    background: linear-gradient(106.75deg, #2272FF 0%, #0D03C3 100%);
+    padding-top: 7%;
+    padding-left: 7%;
+}
+.section2_content1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.s2_c2_p1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: bold;
+font-size: 3em;
+line-height: 100%;
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+.section2_content2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.s2_c2_d1{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
 }
