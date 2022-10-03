@@ -287,12 +287,11 @@ justify-content: start;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
-<<<<<<< HEAD
 .section2{
     display: grid;
     grid-template-rows: 20% 80%;
     border: 1px solid red;
-    height: 100%;
+    height: 120%;
     background: linear-gradient(106.75deg, #2272FF 0%, #0D03C3 100%);
     padding-top: 7%;
     padding-left: 7%;
@@ -319,5 +318,19 @@ color: #FFFFFF;
     display: grid;
     grid-template-rows:1fr 1fr 1fr;
 }
-=======
->>>>>>> dd681f238f2a387ff082e65f5c346c714223f440
+.s2_c2_video{
+    display: grid;
+    height: 30%;
+    width: 40%;
+    margin: 10%;
+}
+.video{
+    max-width: 100%;
+
+}
+.s2_logo{
+    display: grid;
+    grid-area: 1/1/3/2;
+    width: 10%;
+
+}
