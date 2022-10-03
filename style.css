@@ -298,6 +298,7 @@ justify-content: start;
 .section2_content1{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding-right: 10%;
 }
 .s2_c2_p1{
     margin-bottom: 10%;
@@ -366,10 +367,34 @@ color: #FFFFFF;
 font-weight: 500;
 font-size: 1em;
 line-height: 125%;
-
 letter-spacing: -0.02em;
-
 color: #FFFFFF;
-
 opacity: 0.8;
+}
+.section3{
+    display: grid;
+    grid-template-rows: 1fr 1r 5fr;
+    height: 90%;
+    justify-content: center;
+    margin: 10%;
+}
+.s3_p_p{
+font-style: normal;
+font-weight: bolder;
+font-size: 3em;
+line-height: 125%;
+text-align: center;
+letter-spacing: 0.005em;
+
+color: #000000;
+}
+#monthly-report{
+    align-self: center;
+}
+.section3_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section3_card{
+    border: 1px solid red;
 }
