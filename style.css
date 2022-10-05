@@ -363,7 +363,7 @@ opacity: 0.8;
 }
 .section3{
     display: grid;
-    grid-template-rows: 1fr 1r 5fr;
+    grid-template-rows: 1fr 1fr 5fr;
     height: 90%;
     justify-content: center;
     margin: 10%;
