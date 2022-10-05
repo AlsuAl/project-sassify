@@ -317,7 +317,6 @@ color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 40%;
-    gap: none;
 }
 .s2_c2_video{
     display: grid;
