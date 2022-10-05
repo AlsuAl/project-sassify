@@ -83,7 +83,7 @@
     display: grid;
     justify-content: space-around;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: #eeeeee;
     padding: 30px;
     gap: 20px;
 }
