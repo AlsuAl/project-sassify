@@ -1,83 +1,67 @@
 .site {
     display: grid;
     font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
 }
-
-.gradiend {
+.gradiend{
     display: grid;
-    height: 140vh;
-    background: linear-gradient(108.21deg, #2272FF 0%, #0D03C3 97.89%);
-}
-
+    background-image:url(img/Vector.png);
+    background-repeat: no-repeat;
+    height: 190vh;
+} 
 .header_inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 100%;
-    max-width: 1024px;
-    height: 50px;
-    margin: 0 auto;
-    line-height: 50px;
-}
-
-.topnav {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 30px;
+    color: #ffffff;
     align-items: center;
-    justify-content: flex-end;
-
+    justify-content: space-around;
+    text-align: center;
 }
-
-.logon {
-    font-size: larger;
-    color: #FFFFFF;
-    font-family: 'Inter';
+.header_inner span{
     font-weight: 600;
-
 }
-
-.topnav__link {
-    color: #FFFFFF;
-    padding: 0 15px;
-    font-family: 'Inter';
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-
+.navigation{
+    display: grid;
+    justify-content: center;
 }
-
-.batt {
-    padding-left: 50px;
-
+.header_inner a{
+    display: grid;
+    color: #ffffff;
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
 }
-
-.batt a {
-    text-decoration: none;
-    color: black;
-    border: 1px solid #fcfcfc;
-    border-radius: 15px;
-    padding: 3px 6px 3px 6px;
-    background-color: #fcfcfc;
+.wh-button{
+    display: grid;
+    background-color: #ffffff;
+    color:black;   
+    border-radius: 30px; 
+    font-weight: 600;  
+    padding: 10px;
+    width: 10vw;
+    height: 10%;
+    border: none;
 }
-
-.main h1 {
-    position: relative;
-    padding: 224px 219px 0 224px;
-
-    font-family: 'Inter';
-    font-style: normal;
+.main{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-top: 60px;
+}
+.main h1{
     font-weight: 800;
     font-size: 4em;
     line-height: 80px;
     /* or 111% */
-
+    
     text-align: center;
     letter-spacing: -0.03em;
-    text-transform: capitalize;
+    text-transform: capitalize; 
     color: #FFFFFF;
     letter-spacing: 0.22px;
 }
-
-.main h2 {
+.main h2{
     position: relative;
     margin-top: 40px;
     font-family: 'Inter';
@@ -88,10 +72,9 @@
     text-align: center;
     letter-spacing: -0.02em;
 
-    color: #FFFFFF;
+    color:#FFFFFF;
     opacity: 0.8;
 }
-
 .image {
     display: grid;
     margin: auto;
@@ -109,11 +92,31 @@
 }
 
 .brands-services {
+    max-width: 100%;
+}
+.form {
+    display: grid;
+    justify-content: center; 
+    padding: 10px;
+ }
+ .form input{
+    display: grid;
+    border-radius: 30px;
+    width: 40vw;
+    padding: 20px;
+ }
+.Dashboard{
+    display: grid;
+    border-radius: 20px;
+    max-width: 100%;
+    box-shadow: 0.3em 0.3em 3.5em rgba(0,0,0,0.3);
+}
+.brandsandservices{
     display: grid;
     justify-content: space-around;
     align-items: center;
     background-color: #eeeeee;
-    padding: 30px;
+    padding: 50px;
     gap: 20px;
 }
 
@@ -157,16 +160,15 @@
 .card h5 {
     font-weight: 700;
 }
-
-.white-button {
-    background-color: #ffffff;
-    color: #0F0BC7;
-    border-radius: 30px;
-    font-weight: 700;
-    padding: 10px;
-    width: 15vw;
-    height: 60px;
-    border: none;
+.white-button{
+  background-color: #ffffff;
+  color: #0F0BC7;   
+  border-radius: 30px; 
+  font-weight: 600;  
+  padding: 10px;
+  width: 15vw;
+  height: 60px;
+  border: none;
 }
 
 footer {
@@ -299,7 +301,9 @@ footer {
     display: grid;
     background-color: #eeeeee;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 30px;
 }
 
 .testimonial-section h2 {
@@ -375,7 +379,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 40%;
-    gap: none;
 }
 
 .s2_c2_video {
@@ -434,6 +437,10 @@ footer {
     justify-content: space-around;
     align-items: start;
     margin-top: 0%;
+    grid-template-rows: 1fr 1fr 5fr;
+    height: 90%;
+    justify-content: center;
+    margin: 10%;
 }
 
 .section3_p {
