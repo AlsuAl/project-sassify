@@ -21,11 +21,16 @@
 .header_inner span{
     font-weight: 600;
 }
+.navigation{
+    display: grid;
+    justify-content: center;
+}
 .header_inner a{
     display: grid;
     color: #ffffff;
     justify-content: center;
     align-self: center;
+    padding: 10px;
 }
 .wh-button{
     display: grid;
@@ -77,14 +82,14 @@
     display: grid;
     border-radius: 20px;
     max-width: 100%;
-    box-shadow: 0.3em 0.3em 1.5em rgba(0,0,0,0.3);
+    box-shadow: 0.3em 0.3em 3.5em rgba(0,0,0,0.3);
 }
 .brandsandservices{
     display: grid;
     justify-content: space-around;
     align-items: center;
     background-color: #eeeeee;
-    padding: 30px;
+    padding: 50px;
     gap: 20px;
 }
 .brands{
