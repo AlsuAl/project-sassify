@@ -1,6 +1,7 @@
 .site{
     display: grid;
     font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
 }
 .gradiend{
     display: grid;
@@ -78,7 +79,7 @@
     max-width: 100%;
     box-shadow: 0.3em 0.3em 1.5em rgba(0,0,0,0.3);
 }
-.brands-services{
+.brandsandservices{
     display: grid;
     justify-content: space-around;
     align-items: center;
@@ -243,9 +244,12 @@ justify-content: start;
 }
 .testimonial-section{
     display: grid;
+    height:90vh ;
     background-color: #eeeeee;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 30px;
 }
 .testimonial-section h2{
     font-size: 3em;
