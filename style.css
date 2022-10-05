@@ -6,6 +6,7 @@
     display: grid;
     background-image:url(img/Vector.png);
     background-repeat: no-repeat;
+    height: 190vh;
 } 
 .header_inner {
     display: grid;
@@ -58,7 +59,6 @@
     display: grid;
     margin: auto;
     padding: 40px;
-    border-radius: 21.7647px;
     max-width: 100%;
 }
 .form {
@@ -73,13 +73,16 @@
     padding: 20px;
  }
 .Dashboard{
+    display: grid;
+    border-radius: 20px;
     max-width: 100%;
+    box-shadow: 0.3em 0.3em 1.5em rgba(0,0,0,0.3);
 }
 .brands-services{
     display: grid;
     justify-content: space-around;
     align-items: center;
-    background-color: #eeeeee;
+    background-color: #f6f6f6;
     padding: 30px;
     gap: 20px;
 }
