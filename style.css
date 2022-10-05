@@ -437,10 +437,6 @@ footer {
     justify-content: space-around;
     align-items: start;
     margin-top: 0%;
-    grid-template-rows: 1fr 1fr 5fr;
-    height: 90%;
-    justify-content: center;
-    margin: 10%;
 }
 
 .section3_p {
