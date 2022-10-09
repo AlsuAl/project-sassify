@@ -553,4 +553,8 @@ footer {
     padding: 5px;
     width: 100%;
 }
+.footer-headline .white-button
+{
+    width: 50%;
+}
 }
