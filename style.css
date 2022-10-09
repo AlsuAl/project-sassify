@@ -89,29 +89,30 @@
     padding: 40px;
     border-radius: 21.7647px;
 }
-
-.form {
-    margin-top: 40px;
-    text-align: center;
-}
-
 .Dashboard {
     max-width: 100%;
 }
-
 .brands-services {
     max-width: 100%;
 }
 .form {
     display: grid;
     justify-content: center; 
+    align-items: center;
     padding: 10px;
- }
+    margin-top: 40px;
+    text-align: center;
+}
  .form input{
     display: grid;
     border-radius: 30px;
-    width: 40vw;
+    width: 45vw;
     padding: 20px;
+    position: absolute;
+    align-self:center;
+ }
+ .form button{
+    position: relative;
  }
 .Dashboard{
     display: grid;
