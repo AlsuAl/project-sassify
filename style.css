@@ -539,3 +539,20 @@ footer {
 .cards_p6{
     color: white;
 }
+@media screen and (max-width:768px) {
+    .services-cards{
+       grid-template-columns: 1fr;}
+    .brands{
+    grid-template-columns: 1fr 1fr;
+    }
+    .testimonial-cards{
+        grid-template-columns: 1fr;
+}
+.main h1{
+    font-size:3em;
+    font-weight: 600;
+}
+.saasify {
+    grid-template-columns: 1fr 1fr;
+}
+}
