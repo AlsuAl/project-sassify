@@ -540,6 +540,9 @@ footer {
 .section3_cards {
     grid-template-columns: 1fr;
 }
+.section2 .white-button{
+    width: 50vw;
+}
 .white-button{
     font-size: 1em;
     border-radius: 30px; 
