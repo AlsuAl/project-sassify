@@ -555,4 +555,13 @@ footer {
 .saasify {
     grid-template-columns: 1fr 1fr;
 }
+.section3_cards {
+    grid-template-columns: 1fr;
+}
+.white-button{
+    font-weight: 500;
+    font-size: 1em;
+    height: 15vh;
+    width: 20vw;
+}
 }
