@@ -441,16 +441,11 @@ footer {
 
 .section3 {
     display: grid;
-    grid-template-rows: 1fr 1r 5fr;
-    height: 50%;
+    grid-template-rows: 1fr 2fr;
     justify-content: space-around;
-    align-items: start;
-    margin-top: 0%;
-}
-
-.section3_p {
-    height: 60%;
-    margin-bottom: 7%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 70vw;
 }
 
 .s3_p_p {
@@ -466,30 +461,32 @@ footer {
 
 .s3_p_img {
     padding-left: 40%;
-    margin-top: 5%
+    margin-top: 5%;
+    margin: 0%;
 }
 
 .section3_cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 0%;
+    margin: 0%;
 }
 
 .section3_cards {
-    height: 40%;
-    margin-bottom: 15%;
+    height:40%;
+    margin-top: 10%;
 }
 
 #card5,
 #card6 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 4fr 2fr;
-    height: 70%;
+    height: 40%;
 }
 
 #card6 {
     background: linear-gradient(106.75deg, #2272FF 0%, #0D03C3 100%);
     box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.1);
+    height: 40%;
 }
 
 .cards_div {
@@ -505,6 +502,9 @@ footer {
 
 .checked {
     width: 50%;
+}
+#Checkbox2{
+    margin-bottom: 8%;
 }
 
 .pricetag,
@@ -532,4 +532,25 @@ footer {
 }
 .cards_p6{
     color: white;
+}
+@media screen and (max-width:768px) {
+    .section3_cards{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    } 
+}
+.pt5{
+padding-bottom: 27%;
+border-bottom: 1px solid #000000;
+opacity: 0.7;
+}
+#checkbox2_head{
+    padding-bottom: 18%;
+    border-bottom: 1px solid #ffffff;
+    opacity: 0.7;
+    margin-top: 9%;
+}
+
+#pt5{
+    padding-bottom: 17%;
 }
