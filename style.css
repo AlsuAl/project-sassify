@@ -536,8 +536,11 @@ footer {
     font-size:3em;
     font-weight: 600;
 }
+.form input{
+    width: 75%;
+}
 .form button{
-    width: 35vw;
+    width: 30vw;
  }
 .saasify {
     grid-template-columns: 1fr 1fr;
