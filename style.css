@@ -429,8 +429,7 @@ footer {
 
 .section3 {
     display: grid;
-    grid-template-rows: 1fr 1r 5fr;
-    height: 50%;
+    height: 160vh;
     justify-content: space-around;
     align-items: start;
     margin-top: 0%;
