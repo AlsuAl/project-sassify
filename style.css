@@ -584,10 +584,12 @@ footer {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
+   padding-bottom: 10%;
 }
 .section2_content2{
     display: grid;
     grid-template-rows: 2fr 1fr;
     grid-template-columns: 1fr;
+    margin-top: 5%;
 }
 }
