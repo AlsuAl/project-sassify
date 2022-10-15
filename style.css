@@ -252,7 +252,6 @@ footer {
 
 .s1_c_c2 {
     font-style: normal;
-    font-weight: bolder;
     font-size: 1em;
     line-height: 144%;
 
@@ -291,6 +290,7 @@ footer {
 
 .s1_c2_img {
     max-width: 100%;
+    padding-top: 10%;
 }
 
 .testimonial-section {
