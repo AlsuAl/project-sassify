@@ -93,6 +93,11 @@
     position: relative;
     justify-self: flex-end;
  }
+ .form button:hover {
+	background: rgb(249, 247, 247);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
 .Dashboard{
     display: grid;
     border-radius: 20px;
