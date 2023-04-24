@@ -1,5 +1,5 @@
 
-##SAAS
+##Sassisfy
 
 
 ## Technologies:
@@ -13,4 +13,4 @@
 [![Contributors](https://contrib.rocks/image?repo=AlsuAl/f35-project-saas)](https://github.com/AlsuAl/f35-project-saas/graphs/contributors)
 
 ## Result:
-https://github.com/AlsuAl/project-sassify.git
+https://alsual.github.io/project-sassify/
