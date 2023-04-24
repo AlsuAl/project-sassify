@@ -1,5 +1,6 @@
 
 ## SASSIFY
+Sassify website, adaptive layout
 
 
 ## Technologies:
