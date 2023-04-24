@@ -4,6 +4,8 @@ Sassify website, adaptive layout
 
 
 <img width="700" alt="screenshot" src="https://github.com/AlsuAl/AlsuAl/blob/main/assets/mainpegeheader.png">
+<img width="700" alt="screenshot" src="https://github.com/AlsuAl/AlsuAl/blob/main/assets/mainpage.png">
+<img width="700" alt="screenshot" src="https://github.com/AlsuAl/AlsuAl/blob/main/assets/main.png">
 
 ## Technologies:
 <div>
