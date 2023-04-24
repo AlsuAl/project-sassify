@@ -13,4 +13,4 @@
 [![Contributors](https://contrib.rocks/image?repo=AlsuAl/f35-project-saas)](https://github.com/AlsuAl/f35-project-saas/graphs/contributors)
 
 ## Result:
-https://AlsuAl.github.io/f35-project-saas/
+https://github.com/AlsuAl/project-sassify.git
